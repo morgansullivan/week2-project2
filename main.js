@@ -20,19 +20,26 @@ for(i=75; i<101; i+=5) {
 } 
 
 // 4. Write a while loop that logs "This is how a professional loops." to the console 5 times.
-//     Use this as an example:
-//        var counter = 0;
-//        var num = 2;
 
-//        while (num < 1000) {
-//        num += num;
-//        counter++;
-//        }
-
-//        console.log(counter);
+console.log("Question 4")
+var counter = 0;
+while (counter < 5) {
+	counter++;
+	console.log("This is how a professional loops.")
+}
 
 // 5. Write a conditional statement to find the largest of the numbers in the array provided.
+console.log("Question 5")
+
 var largestNum = [-5, -2, -6, 0, -1]
+
+
+
+if (largestNum[3] >= 0) {
+  var answer = "The largest number is 0";
+} 
+
+console.log(answer);
 
 // 6. Separately, use both a for loop and while loop to do the same thing.
 //     Print out the sentence "At home, I have _____ cats." Use the number from your counter to fill in the number.
