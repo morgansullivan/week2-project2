@@ -2,10 +2,22 @@
 
 // 1. Output each item in the following Array to your console:
 var livingRoom = ['couch', 'lamp', 'rug', 'shelf'];
+console.log("Question 1")
+console.log(livingRoom);
 
 // 2. Using a loop, log numbers 22-33 in the console.
+console.log("Question 2")
+for(i=22; i<34; i++) {   
+	console.log(i);
+} 
 
 // 3. Using a similar loop, log numbers 75 to 100, only in increments of five.
+
+console.log("Question 2")
+for(i=75; i<101; i+=5) { 
+  
+	console.log(i);
+} 
 
 // 4. Write a while loop that logs "This is how a professional loops." to the console 5 times.
 //     Use this as an example:
